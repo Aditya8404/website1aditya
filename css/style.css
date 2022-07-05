@@ -106,3 +106,12 @@ body {
     flex-wrap: initial;
     gap: 5rem;
 }
+
+.photo {
+    position: absolute;
+    left: 44%;
+}
+
+.photo h2 {
+    color: rgb(226, 233, 237);
+}
