@@ -25,7 +25,7 @@ ul li {
 ul li a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
+    font-size: 18px;
 
     color: black;
     padding: 5px 40px;
@@ -35,11 +35,13 @@ ul li a {
 ul li a:hover {
     background-color: rgb(80, 98, 217);
     color: white;
+    border-radius: 15px;
 }
 
 ul li.active a {
     background-color: rgb(80, 98, 217);
     color: white;
+    border-radius: 15px;
 }
 
 .main {
@@ -87,8 +89,8 @@ ul li.active a {
 
 .logo {
     position: absolute;
-    top: 35px;
-    left: 40px;
+    top: 22px;
+    left: 30px;
 }
 
 body {
@@ -105,6 +107,12 @@ body {
     display: inline-table;
     flex-wrap: initial;
     gap: 5rem;
+    position: absolute;
+    left: 20px;
+}
+.grid h1{
+    color: rgb(80, 98, 217);
+    font-family: cursive;
 }
 
 .photo {
@@ -114,4 +122,17 @@ body {
 
 .photo h2 {
     color: rgb(226, 233, 237);
+}
+img {
+    position: absolute;
+    left: 44%;
+    top: 125%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 0px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
 }
