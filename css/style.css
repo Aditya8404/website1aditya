@@ -102,9 +102,9 @@ body {
 
 
 .grid {
-    display: flex;
+    display: inline-table;
     flex-wrap: initial;
-    gap: 5rem;
+    gap: 30rem;
 }
 
 .photo {
