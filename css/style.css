@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: -80px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+
+    color: black;
+    padding: 5px 40px;
+    border: 0px solid black;
+}
+
+ul li a:hover {
+    background-color: rgb(80, 98, 217);
+    color: white;
+}
+
+ul li.active a {
+    background-color: rgb(80, 98, 217);
+    color: white;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: darkblue;
+    font-size: 80px;
+    font-family: monospace;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 41.5%;
+    transform: translate(-50%, -50%);
+}
+
+.name h1 {
+    color: black;
+    font-size: 70px;
+}
+
+.aditya {
+    position: absolute;
+    top: 49%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+.aditya h1 {
+    color: maroon;
+    font-size: 85px;
+    font-family: cursive;
+}
+
+.logo {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+body {
+    padding: 2rem;
+
+    background: rgb(226, 233, 237);
+
+    color: rgb(19, 11, 5);
+    font: 1.2rem / 1.5 'Rubik', sans-serif;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: initial;
+    gap: 5rem;
+}
